@@ -39,6 +39,8 @@ footer {
   background-color: #222;
   color: white;
   text-align: center;
+  align-items: center;
+  height: 120px;
   margin-top: 40px;
   padding: 20px 0;
   position: relative;
@@ -48,6 +50,9 @@ footer {
 
 .footer-content {
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   margin: 0 auto;
 }
 
