@@ -8,9 +8,7 @@ function topo() {
 }
 
 //alert adicionado ao carrinho
-// Selecionando todos os botões de compra
 const btnCompras = document.querySelectorAll(".carrinho");
-// Adicionando um listener de evento para cada botão
 btnCompras.forEach((btnCompra) => {
   btnCompra.addEventListener("click", (event) => {
     event.preventDefault();
