@@ -11,7 +11,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="../../style.css" />
   </head>
 
   <body>
@@ -78,8 +78,8 @@
     </header>
 
     <main>
-      <section id="section-login ">
-        <h1 class="">Login</h1>
+      <section id="section-login">
+        <h1 class="tituloLogin">Login</h1>
         <div class="d-flex justify-content-center">
           <form method="post" action="" id="login">
             <p>
@@ -90,7 +90,7 @@
                 required="required"
                 type="text"
                 placeholder="Insira o seu usuário"
-                class="form-control"
+                class="form-control mb-3"
               />
             </p>
             <p>
@@ -101,7 +101,7 @@
                 required="required"
                 type="password"
                 placeholder="Insira a sua senha"
-                class="form-control"
+                class="form-control mb-3"
               />
             </p>
             <p>
@@ -181,7 +181,12 @@
       <p></p>
     </footer>
 
-    <button id="voltar-topo" type="button" class="btn btn-outline-primary">
+    <button
+      id="voltar-topo"
+      type="button"
+      class="btn btn-outlineprimary"
+      onclick="topo()"
+    >
       &uarr; Voltar ao topo
     </button>
 
@@ -190,13 +195,13 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
+    <script src="../scripts/script.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.6.1.js"
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="js/jquery-script.js"></script>
+    <script type="text/javascript" src="../scripts/jquery-script.js"></script>
   </body>
 </html>

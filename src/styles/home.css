@@ -1,4 +1,71 @@
-.logo_nav{
-    height: 70px;
-    width: 70px;
+.logo_nav {
+  height: 70px;
+  width: 70px;
+}
+.imhCarousel {
+  height: 500px;
+  width: 122%;
+}
+
+#section-vendidos {
+  text-align: center;
+}
+#section-vendidos h2 {
+  font-weight: bold;
+  padding: 20px;
+}
+#section-vendidos img {
+  height: 300px;
+  border-radius: 10px;
+}
+#section-vendidos .card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#section-vendidos .preco {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 0;
+}
+#voltar-topo {
+  position: fixed;
+  bottom: 5px;
+  right: 30px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
